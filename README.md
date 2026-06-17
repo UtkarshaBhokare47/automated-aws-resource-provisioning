@@ -50,6 +50,10 @@ Run project:
 python automation.py
 
 
+## Architecture Diagram
+
+![AWS Boto3 Automation Architecture](architecture.png)
+
 ## Output
 
 EC2 Instance Created Successfully
