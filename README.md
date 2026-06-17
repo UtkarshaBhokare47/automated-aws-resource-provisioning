@@ -53,3 +53,7 @@ python automation.py
 ## Output
 
 EC2 Instance Created Successfully
+
+## Architecture Diagram
+
+![AWS Boto3 Automation Architecture](architecture.png)
