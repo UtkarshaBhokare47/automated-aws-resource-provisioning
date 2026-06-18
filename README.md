@@ -2,8 +2,9 @@
 
 ## Project Overview
 
-This project automates AWS resource creation using Python Boto3 SDK.
-Instead of manually creating resources from AWS Console, infrastructure is provisioned using Python automation scripts.
+This project demonstrates Infrastructure Automation using Python and AWS Boto3 SDK. Instead of manually creating AWS resources through the AWS Management Console, resources are provisioned programmatically using Python scripts.
+
+The automation script connects to AWS services through Boto3 and creates cloud resources such as EC2 instances and S3 buckets efficiently.
 
 ## AWS Services Used
 
@@ -14,23 +15,14 @@ Instead of manually creating resources from AWS Console, infrastructure is provi
 
 ## Workflow
 
-Developer
-|
-Python Script
-|
-Boto3 SDK
-|
-AWS API
-|
-EC2 Instance Created
-
+Developer │ ▼ Python Script │ ▼ Boto3 SDK │ ▼ AWS API │ ┌──┴──┐ ▼ ▼ EC2 S3
 
 ## Features
 
-- Automated EC2 instance provisioning
-- Uses AWS SDK for Python (Boto3)
-- Reduces manual AWS Console operations
-- Infrastructure creation through code
+Automate AWS infrastructure provisioning
+Eliminate repetitive manual tasks
+Implement Infrastructure as Code (IaC) concepts
+Learn AWS SDK (Boto3) integration with Python
 
 
 ## Setup
@@ -43,6 +35,13 @@ pip install boto3
 Configure AWS credentials:
 
 aws configure
+
+Provide:
+
+AWS Access Key ID
+AWS Secret Access Key
+Default Region
+Output Format
 
 
 Run project:
@@ -57,5 +56,14 @@ python automation.py
 ## Output
 
 EC2 Instance Created Successfully
+S3 Bucket Created Successfully
 
+🎓 Learning Outcomes
+
+AWS SDK (Boto3) Fundamentals
+EC2 Automation
+S3 Automation
+IAM Credential Management
+Infrastructure as Code (IaC) Concepts
+Cloud Resource Provisioning using Python
 
